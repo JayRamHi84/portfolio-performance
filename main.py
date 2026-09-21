@@ -13,6 +13,7 @@ import pandas as pd
 import analytics
 import config
 import schwab_data
+import similarity
 import top3_relationship
 from funds import FUNDS
 
@@ -203,7 +204,13 @@ def main() -> int:
         print(f"\n✓ Wrote relationship figure → {png}")
     except Exception as exc:
         print(f"\n⚠ Could not build relationship figure: {exc}")
-
+    # ── Peer-similarity report + figure ────────────────────────────────────────
+    try:
+        similarity.print_report()
+        sim_png = similarity.build_figure()
+        print(f"\n✓ Wrote similarity figure → {sim_png}")
+    except Exception as exc:
+        print(f"\n⚠ Could not build similarity figure: {exc}")
     return 0
 
 
