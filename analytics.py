@@ -4,7 +4,7 @@
 #  All metrics are computed from daily total-price (NAV) series.  Metrics that
 #  require intraday Open/High/Low (Parkinson, Garman-Klass, Rogers-Satchell,
 #  Yang-Zhang) are NOT computable from mutual-fund NAV closes and are reported
-#  as None (N/A), per the analysis scope.
+#  as None (N/A).
 # ═══════════════════════════════════════════════════════════════════════════════
 import numpy as np
 import pandas as pd

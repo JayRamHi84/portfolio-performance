@@ -1,8 +1,7 @@
 # ═══════════════════════════════════════════════════════════════════════════════
 #  funds.py  —  T. Rowe Price equity mutual-fund universe (name → symbol)
 # ═══════════════════════════════════════════════════════════════════════════════
-#  Grouped by the categories in todo.md.  `FUNDS` is an ordered list of
-#  (symbol, name, category) tuples consumed by main.py.
+#  `FUNDS` is an ordered list of (symbol, name, category) tuples consumed by main.py.
 # ═══════════════════════════════════════════════════════════════════════════════
 
 FUNDS = [

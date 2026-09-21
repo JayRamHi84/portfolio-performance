@@ -8,7 +8,6 @@
 #              relative to the full fund universe, higher = better);
 #    • right — a colour-graded relationship table of the underlying raw metric
 #              values for the same three funds.
-#  The figure is saved next to the CSV as top3_relationship.png.
 # ═══════════════════════════════════════════════════════════════════════════════
 import os
 

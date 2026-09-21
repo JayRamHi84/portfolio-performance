@@ -2,8 +2,7 @@
 #  config.py  —  Portfolio_Performance central configuration
 # ═══════════════════════════════════════════════════════════════════════════════
 #  Self-contained configuration. Secrets (Schwab API key/secret and the OAuth
-#  token file) are NEVER hard-coded here — they are read from a local .env file
-#  and a local schwab_token.json, both of which are git-ignored.
+#  token file) read from local .env file and a local schwab_token.json
 # ═══════════════════════════════════════════════════════════════════════════════
 import os
 
