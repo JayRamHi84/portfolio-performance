@@ -111,15 +111,3 @@ peers of the target funds). The two figure scripts can also be run on their own
 
 ---
 
-## 5. Design decisions & talking points
-
-- **Composite percentile scoring** avoids letting any single metric or unit
-  scale dominate — every metric contributes equally on a 0–1 rank basis.
-- **A common window and benchmark** guarantee comparability; funds without full
-  coverage are flagged rather than silently mixed in.
-- **Honest `N/A`s** — intraday-only volatility estimators are not invented from
-  daily NAV data; the limitation is documented.
-- **Separation of concerns** — networking (`schwab_data`), math (`analytics`),
-  configuration (`config`), data (`funds`), orchestration (`main`), and
-  visualization (`top3_relationship`, `similarity`) are cleanly decoupled and
-  independently testable.
