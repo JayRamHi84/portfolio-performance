@@ -1,0 +1,6 @@
+# Portfolio_Performance dependencies
+schwab-py>=1.3
+pandas>=2.0
+numpy>=1.24
+httpx>=0.27
+matplotlib>=3.7
