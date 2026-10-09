@@ -6,7 +6,7 @@
 > comparison of the best-scoring funds and a peer-similarity map.
 
 ---
-> Note: This project was made using LLM's. Double check metrics calculations.
+
 ##
 
 Running `python main.py` produces both figures below.
@@ -110,4 +110,7 @@ peers of the target funds). The two figure scripts can also be run on their own
 (`python top3_relationship.py`, `python similarity.py`) against an existing CSV.
 
 ---
+
+## ⚠️ Disclaimer
+This indicator is for educational and personal research purposes only and does not constitute investment or financial advice. Trading futures, equities, and options involves substantial risk of loss. The author assumes no liability for any trading decisions or financial losses incurred from using this software.
 
